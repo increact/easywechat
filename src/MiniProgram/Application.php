@@ -58,6 +58,7 @@ use EasyWeChat\Kernel\ServiceContainer;
  * @property \EasyWeChat\MiniProgram\QrCode\Client              $qr_code
  * @property \EasyWeChat\MiniProgram\PhoneNumber\Client         $phone_number
  * @property \EasyWeChat\MiniProgram\ShortLink\Client           $short_link
+ * @property \EasyWeChat\MiniProgram\Shipping\Client            $shipping
  */
 class Application extends ServiceContainer
 {
